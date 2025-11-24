@@ -1,5 +1,8 @@
 
-<img width="1919" height="955" alt="Skärmbild 2025-11-24 110819" src="https://github.com/user-attachments/assets/aeb45b2b-c5ac-407c-ac61-282dade433f4" />
+<img width="1914" height="967" alt="Skärmbild 2025-11-24 153115" src="https://github.com/user-attachments/assets/bb83d1b5-f8e9-4c92-9996-ebe0f715130f" />
+
+<img width="1910" height="963" alt="Skärmbild 2025-11-24 153141" src="https://github.com/user-attachments/assets/ef3fe07f-ca93-4554-af6d-30ec9e854e4a" />
+
 
 // create two teams for an e-sport tournament with maximum 5 players in each team //
 
@@ -13,7 +16,7 @@
 
 // create li (list items) for the players when add button is clicked
 
-// add teamplayers (maximum 10)
+// add team players (maximum 10)
 
 // if more then 5 in first team, new players are put in the second team
 
