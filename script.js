@@ -61,14 +61,14 @@ const change = document.createElement("button")
 
 // CREATE A PINK CHANGE USERNAME BUTTON    
 const newName = document.createElement("button")
-let newInput = document.createElement("input")
+// let newInput = document.createElement("input")
     newName.innerText = "Rename"
     newName.style.backgroundColor = "pink"
-    newInput.style.width = "100px"
+    // newInput.style.width = "100px"
 
 // WHEN INPUT OF A NEW PLAYER IS ADDED TO THE LI, THE LEAVE BUTTON + CHANGE TEAM BUTTON + CHANGE USERNAME BUTTON + AN INPUT FOR A NEW USERNAME, WILL ALSO BE ADDED
     li.innerText = newPlayer.value
-    li.append(leave, change, newName, newInput)
+    li.append(leave, change, newName)
 
 // LEAVE TEAM WHEN LEAVE BUTTON IS CLICKED
     leave.addEventListener("click", () => {
@@ -96,10 +96,10 @@ let newInput = document.createElement("input")
 
 // CHANGE USERNAME OF A PLAYER WHEN BUTTON IS CLICKED
 newName.addEventListener("click", () => {
-    li.innerText = newInput.value;
-    li.append(leave, change, newName, newInput)
+    li.innerText = newPlayer.value;
+    li.append(leave, change, newName)
     
-    newInput.value = "";
+    // newInput.value = "";
     newPlayer.value = "";
 
     })
