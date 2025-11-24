@@ -59,14 +59,15 @@ const change = document.createElement("button")
     change.innerText = "Change Team"
     change.style.backgroundColor = "chartreuse"
 
-// CREATE A PINK CHANGE PLAYER NAME BUTTON    
+// CREATE A PINK CHANGE USERNAME BUTTON    
 const newName = document.createElement("button")
-    newName.innerText = "Change Player Name"
+let newInput = document.createElement("input")
+    newName.innerText = "Change Username"
     newName.style.backgroundColor = "pink"
 
-// WHEN INPUT OF NEW PLAYER IS ADDED TO THE LI, THE LEAVE BUTTON + CHANGE TEAM BUTTON + CHANGE PLAYER NAME WILL ALSO BE ADDED
+// WHEN INPUT OF A NEW PLAYER IS ADDED TO THE LI, THE LEAVE BUTTON + CHANGE TEAM BUTTON + CHANGE USERNAME BUTTON + AN INPUT FOR A NEW USERNAME, WILL ALSO BE ADDED
     li.innerText = newPlayer.value
-    li.append(leave, change, newName)
+    li.append(leave, change, newName, newInput)
 
 // LEAVE TEAM WHEN LEAVE BUTTON IS CLICKED
     leave.addEventListener("click", () => {
@@ -90,6 +91,16 @@ const newName = document.createElement("button")
                 alert("The other team is full!");
             }
         }
+    })
+
+// CHANGE USERNAME OF A PLAYER WHEN BUTTON IS CLICKED
+newName.addEventListener("click", () => {
+    li.innerText = newInput.value;
+    li.append(leave, change, newName, newInput)
+    
+    newInput.value = "";
+    newPlayer.value = "";
+
     })
 
     document.querySelector("#playerAdd").value = "";
