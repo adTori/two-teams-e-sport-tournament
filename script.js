@@ -64,6 +64,7 @@ const newName = document.createElement("button")
 let newInput = document.createElement("input")
     newName.innerText = "Change Username"
     newName.style.backgroundColor = "pink"
+    newInput.style.width = "100px"
 
 // WHEN INPUT OF A NEW PLAYER IS ADDED TO THE LI, THE LEAVE BUTTON + CHANGE TEAM BUTTON + CHANGE USERNAME BUTTON + AN INPUT FOR A NEW USERNAME, WILL ALSO BE ADDED
     li.innerText = newPlayer.value
