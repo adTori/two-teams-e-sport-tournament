@@ -3,26 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Övningsuppgift 9</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
-    <title>Create Two Teams</title>
 </head>
 <body>
     <div class="teams">
         <div class="lagA">
             <input type="text" id="bytA" placeholder="New Team Name">
             <button class="btnA">Change Team Name</button>
-            <h2 class="aNamn">Lag A</h2>
-            <ul class="aSpelare lag"></ul>
+            <h2 class="aNamn">Team A</h2>
+            <ul class="aSpelare lag" id="ulA"></ul>
         </div>
 
         <div class="lagB">
             <input type="text" id="bytB" placeholder="New Team Name">
             <button class="btnB">Change Team Name</button>
-            <h2 class="bNamn">Lag B</h2>
+            <h2 class="bNamn">Team B</h2>
             <ul class="bSpelare lag"></ul>
         </div>
     </div>
+    
+    <select name="team" id="team">
+        <option value="a">Blue</option>
+        <option value="b">Red</option>
+    </select>
 
     <div class="addUsername">
         <input type="text" id="playerAdd" placeholder="Username">

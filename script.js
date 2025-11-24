@@ -59,9 +59,14 @@ const change = document.createElement("button")
     change.innerText = "Change Team"
     change.style.backgroundColor = "chartreuse"
 
+// CREATE A PINK CHANGE PLAYER NAME BUTTON    
+const newName = document.createElement("button")
+    newName.innerText = "Change Name"
+    newName.style.backgroundColor = "pink"
+
 // WHEN INPUT OF NEW PLAYER IS ADDED TO THE LI, THE LEAVE BUTTON + CHANGE TEAM BUTTON WILL ALSO BE ADDED
     li.innerText = newPlayer.value
-    li.append(leave, change)
+    li.append(leave, change, newName)
 
 // LEAVE TEAM WHEN LEAVE BUTTON IS CLICKED
     leave.addEventListener("click", () => {
