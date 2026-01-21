@@ -4,34 +4,36 @@
 <img width="1910" height="963" alt="Skärmbild 2025-11-24 153141" src="https://github.com/user-attachments/assets/ef3fe07f-ca93-4554-af6d-30ec9e854e4a" />
 
 
-// create two teams for an e-sport tournament with maximum 5 players in each team //
+### Assigment instuctions
 
-// change a team name
+Create two teams for an e-sport tournament with maximum 5 players in each team
 
-// change b team name
+Change a team name
 
-// create input for players and an add button
+Change b team name
 
-// create ul (unordered lists) for each team
+Create input for players and an add button
 
-// create li (list items) for the players when add button is clicked
+Create ul (unordered lists) for each team
 
-// add team players (maximum 10)
+Create li (list items) for the players when add button is clicked
 
-// if more then 5 in first team, new players are put in the second team
+Add team players (maximum 10)
 
-// alert if more then 10 players in total
+If more then 5 in first team, new players are put in the second team
 
-// create a yellow leave button
+Alert if more then 10 players in total
 
-// create a green-ish change team button
+Create a yellow leave button
 
-// create a pink change username button    
+Create a green-ish change team button
 
-// when the input of a new player is added, the leave button + change team button + rename button, will also be added
+Create a pink change username button
 
-// leave team when leave button is clicked
+When the input of a new player is added, the leave button + change team button + rename button, will also be added
 
-// change team when change team button is clicked
+Leave team when leave button is clicked
 
-// change username of a player when rename button is clicked
+Change team when change team button is clicked
+
+Change username of a player when rename button is clicked
